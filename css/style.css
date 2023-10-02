@@ -1,0 +1,56 @@
+/*
+*********
+RESET
+*********
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/*
+*********
+DEBUG
+*********
+*/
+header{
+    background-color: #add8e6;
+    padding: 10px;
+}
+ 
+.contenitor-debug{
+    display: flex;
+    justify-content: space-between;
+    background-color: #daa520;
+    border: 1px dashed black;
+    margin: 0px auto;
+    width: 900px;
+    padding: 5px;
+}
+
+.logo-debug{
+    
+}
+
+.login-debug{
+    border-left: 2px dashed black;
+    
+}
+
+.link-debug{
+    border-left: 2px dashed black;
+    height: 100%;
+    flex-grow: 2;
+    text-align: center;
+}
+
+/*
+*********
+Header
+*********
+*/
+
