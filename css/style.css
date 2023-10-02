@@ -54,3 +54,24 @@ Header
 *********
 */
 
+/*
+*********
+one
+*********
+*/
+
+#one{
+    background-color: #00008b;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#one div{
+    height: 300px;
+    width: 600px;
+    background-color: #ee82ee;
+    border: 1px dashed black;
+    
+}
+
