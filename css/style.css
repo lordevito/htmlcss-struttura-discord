@@ -33,12 +33,7 @@ header{
 }
 
 .logo-debug{
-    
-}
-
-.login-debug{
-    border-left: 2px dashed black;
-    
+    flex-grow: 1;
 }
 
 .link-debug{
@@ -48,11 +43,13 @@ header{
     text-align: center;
 }
 
-/*
-*********
-Header
-*********
-*/
+.login-debug{
+    border-left: 2px dashed black;
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
 
 /*
 *********
@@ -122,5 +119,65 @@ section{
 .bg-green{
     background-color: #228b22;
 }
+/*
+*********
+Fine section
+*********
+*/
+
+/*
+*********
+Footer
+*********
+*/
+
+footer{
+    background-color: #23272a;
+    padding: 5px;
+}
+
+.purple {
+    background-color: #f08080;
+    flex-grow: 2;
+    border: 1px dashed black;
+}
+.acqua {
+    background-color: #20b2aa;
+    flex-grow: 1;
+    border: 1px dashed white;
+}
+
+#circle{
+    border-radius: 2%;
+}
+
+hr {
+    border: 2px solid #b4b4b3;
+}
+
+#top {
+    background-color: #7fffd4;
+    margin: 10px auto;
+    display: flex;
+    padding: 15px 0px;
+    justify-content: space-between;
+    width: 900px; 
+}
+
+.button{
+    background-color: #f08080;
+    border: 1px dashed black;
+    
+}
+
+/*
+*********
+Fine Footer
+*********
+*/
+
+
+
+
 
 
