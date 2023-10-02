@@ -56,6 +56,25 @@ Header
 
 /*
 *********
+box
+*********
+*/
+.box{
+    margin: 20px auto;
+    height: 300px;
+    width: 900px;
+    border: 1px dashed black;
+    display: flex;
+}
+
+/*
+*********
+fine box
+*********
+*/
+
+/*
+*********
 one
 *********
 */
@@ -72,6 +91,36 @@ one
     width: 600px;
     background-color: #ee82ee;
     border: 1px dashed black;
+    border-radius: 2%;
     
 }
+
+/*
+*********
+Section
+*********
+*/
+
+section{
+    padding: 5px;
+}
+
+.blue{
+    background-color: #1e90ff;
+    flex-grow: 2;
+}
+
+.pink{
+    background-color: #ffc0cb;
+    flex-grow: 1;  
+}
+
+.bg-grey{
+    background-color: #d3d3d3 !important;
+}
+
+.bg-green{
+    background-color: #228b22;
+}
+
 
